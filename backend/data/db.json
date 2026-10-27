@@ -1,0 +1,741 @@
+{
+  "users": [
+    {
+      "_id": "usr-001",
+      "name": "Sarah Connor",
+      "email": "hr@staffsync.io",
+      "password": "$2a$10$9H/d1bBoHaActCqIYSQei.YCJJxZ0YOuLu0U2oaPLwcEOVX5vNSl2",
+      "role": "hr",
+      "employeeId": "EMP-HR-001",
+      "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80",
+      "status": "Active",
+      "createdAt": "2025-01-10T00:00:00.000Z"
+    },
+    {
+      "_id": "usr-002",
+      "name": "Michael Scott",
+      "email": "manager@staffsync.io",
+      "password": "$2a$10$9H/d1bBoHaActCqIYSQei.YCJJxZ0YOuLu0U2oaPLwcEOVX5vNSl2",
+      "role": "manager",
+      "employeeId": "EMP-MGR-002",
+      "avatar": "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=150&auto=format&fit=crop&q=80",
+      "status": "Active",
+      "createdAt": "2025-01-15T00:00:00.000Z"
+    },
+    {
+      "_id": "usr-003",
+      "name": "Alex Morgan",
+      "email": "employee@staffsync.io",
+      "password": "$2a$10$9H/d1bBoHaActCqIYSQei.YCJJxZ0YOuLu0U2oaPLwcEOVX5vNSl2",
+      "role": "employee",
+      "employeeId": "EMP-DEV-003",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "status": "Active",
+      "createdAt": "2025-02-01T00:00:00.000Z"
+    },
+    {
+      "_id": "usr-004",
+      "name": "Elena Rostova",
+      "email": "elena@staffsync.io",
+      "password": "$2a$10$9H/d1bBoHaActCqIYSQei.YCJJxZ0YOuLu0U2oaPLwcEOVX5vNSl2",
+      "role": "employee",
+      "employeeId": "EMP-DEV-004",
+      "avatar": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=150&auto=format&fit=crop&q=80",
+      "status": "Active",
+      "createdAt": "2025-02-15T00:00:00.000Z"
+    },
+    {
+      "_id": "usr-005",
+      "name": "David Kim",
+      "email": "david@staffsync.io",
+      "password": "$2a$10$9H/d1bBoHaActCqIYSQei.YCJJxZ0YOuLu0U2oaPLwcEOVX5vNSl2",
+      "role": "employee",
+      "employeeId": "EMP-DES-005",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
+      "status": "Active",
+      "createdAt": "2025-03-01T00:00:00.000Z"
+    },
+    {
+      "_id": "usr-006",
+      "name": "Rachel Green",
+      "email": "rachel@staffsync.io",
+      "password": "$2a$10$9H/d1bBoHaActCqIYSQei.YCJJxZ0YOuLu0U2oaPLwcEOVX5vNSl2",
+      "role": "employee",
+      "employeeId": "EMP-HR-006",
+      "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150&auto=format&fit=crop&q=80",
+      "status": "Active",
+      "createdAt": "2025-03-10T00:00:00.000Z"
+    }
+  ],
+  "employees": [
+    {
+      "_id": "emp-001",
+      "employeeId": "EMP-HR-001",
+      "firstName": "Sarah",
+      "lastName": "Connor",
+      "email": "hr@staffsync.io",
+      "phone": "+1 (555) 234-5678",
+      "department": "Human Resources",
+      "designation": "VP of Human Resources & People Ops",
+      "role": "hr",
+      "managerId": null,
+      "managerName": "Executive Board",
+      "salary": 135000,
+      "joiningDate": "2024-03-15",
+      "employmentType": "Full-Time",
+      "address": {
+        "street": "742 Evergreen Terrace",
+        "city": "San Francisco",
+        "state": "CA",
+        "zipCode": "94107",
+        "country": "USA"
+      },
+      "emergencyContact": {
+        "name": "John Connor",
+        "relationship": "Son",
+        "phone": "+1 (555) 876-5432"
+      },
+      "leaveBalances": {
+        "sick": 12,
+        "casual": 10,
+        "annual": 20
+      },
+      "status": "Active",
+      "avatar": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&auto=format&fit=crop&q=80",
+      "skills": [
+        "Talent Strategy",
+        "HR Compliance",
+        "Employee Relations",
+        "Executive Coaching"
+      ],
+      "createdAt": "2024-03-15T00:00:00.000Z"
+    },
+    {
+      "_id": "emp-002",
+      "employeeId": "EMP-MGR-002",
+      "firstName": "Michael",
+      "lastName": "Scott",
+      "email": "manager@staffsync.io",
+      "phone": "+1 (555) 345-6789",
+      "department": "Engineering",
+      "designation": "Engineering Team Lead & Manager",
+      "role": "manager",
+      "managerId": "EMP-HR-001",
+      "managerName": "Sarah Connor",
+      "salary": 120000,
+      "joiningDate": "2024-05-10",
+      "employmentType": "Full-Time",
+      "address": {
+        "street": "1725 Slough Avenue",
+        "city": "Scranton / San Francisco",
+        "state": "CA",
+        "zipCode": "94103",
+        "country": "USA"
+      },
+      "emergencyContact": {
+        "name": "Pam Beesly",
+        "relationship": "Colleague & Contact",
+        "phone": "+1 (555) 987-6543"
+      },
+      "leaveBalances": {
+        "sick": 10,
+        "casual": 8,
+        "annual": 16
+      },
+      "status": "Active",
+      "avatar": "https://images.unsplash.com/photo-1560250097-0b93528c311a?w=150&auto=format&fit=crop&q=80",
+      "skills": [
+        "Team Leadership",
+        "Agile / Scrum",
+        "Architecture",
+        "Mentorship",
+        "Code Reviews"
+      ],
+      "createdAt": "2024-05-10T00:00:00.000Z"
+    },
+    {
+      "_id": "emp-003",
+      "employeeId": "EMP-DEV-003",
+      "firstName": "Alex",
+      "lastName": "Morgan",
+      "email": "employee@staffsync.io",
+      "phone": "+1 (555) 456-7890",
+      "department": "Engineering",
+      "designation": "Senior Frontend Engineer",
+      "role": "employee",
+      "managerId": "EMP-MGR-002",
+      "managerName": "Michael Scott",
+      "salary": 95000,
+      "joiningDate": "2024-08-01",
+      "employmentType": "Full-Time",
+      "address": {
+        "street": "456 Mission Bay Blvd",
+        "city": "San Francisco",
+        "state": "CA",
+        "zipCode": "94158",
+        "country": "USA"
+      },
+      "emergencyContact": {
+        "name": "Tyler Morgan",
+        "relationship": "Brother",
+        "phone": "+1 (555) 654-3210"
+      },
+      "leaveBalances": {
+        "sick": 10,
+        "casual": 9,
+        "annual": 15
+      },
+      "status": "Active",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+      "skills": [
+        "React.js",
+        "Redux Toolkit",
+        "TypeScript",
+        "Node.js",
+        "Bootstrap 5",
+        "UI/UX"
+      ],
+      "createdAt": "2024-08-01T00:00:00.000Z"
+    },
+    {
+      "_id": "emp-004",
+      "employeeId": "EMP-DEV-004",
+      "firstName": "Elena",
+      "lastName": "Rostova",
+      "email": "elena@staffsync.io",
+      "phone": "+1 (555) 567-8901",
+      "department": "Engineering",
+      "designation": "Backend & Cloud Systems Engineer",
+      "role": "employee",
+      "managerId": "EMP-MGR-002",
+      "managerName": "Michael Scott",
+      "salary": 98000,
+      "joiningDate": "2024-09-15",
+      "employmentType": "Full-Time",
+      "address": {
+        "street": "890 Market Street",
+        "city": "San Francisco",
+        "state": "CA",
+        "zipCode": "94102",
+        "country": "USA"
+      },
+      "emergencyContact": {
+        "name": "Sergei Rostov",
+        "relationship": "Father",
+        "phone": "+1 (555) 321-7654"
+      },
+      "leaveBalances": {
+        "sick": 12,
+        "casual": 10,
+        "annual": 18
+      },
+      "status": "Active",
+      "avatar": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=150&auto=format&fit=crop&q=80",
+      "skills": [
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "PostgreSQL",
+        "Docker",
+        "Microservices"
+      ],
+      "createdAt": "2024-09-15T00:00:00.000Z"
+    },
+    {
+      "_id": "emp-005",
+      "employeeId": "EMP-DES-005",
+      "firstName": "David",
+      "lastName": "Kim",
+      "email": "david@staffsync.io",
+      "phone": "+1 (555) 678-9012",
+      "department": "Design",
+      "designation": "Lead Product Designer",
+      "role": "employee",
+      "managerId": "EMP-MGR-002",
+      "managerName": "Michael Scott",
+      "salary": 92000,
+      "joiningDate": "2024-10-01",
+      "employmentType": "Full-Time",
+      "address": {
+        "street": "320 Fremont Street",
+        "city": "San Francisco",
+        "state": "CA",
+        "zipCode": "94105",
+        "country": "USA"
+      },
+      "emergencyContact": {
+        "name": "Grace Kim",
+        "relationship": "Spouse",
+        "phone": "+1 (555) 789-1234"
+      },
+      "leaveBalances": {
+        "sick": 11,
+        "casual": 8,
+        "annual": 17
+      },
+      "status": "Active",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80",
+      "skills": [
+        "Figma",
+        "Design Systems",
+        "User Research",
+        "Prototyping",
+        "Design Sprint"
+      ],
+      "createdAt": "2024-10-01T00:00:00.000Z"
+    },
+    {
+      "_id": "emp-006",
+      "employeeId": "EMP-HR-006",
+      "firstName": "Rachel",
+      "lastName": "Green",
+      "email": "rachel@staffsync.io",
+      "phone": "+1 (555) 789-0123",
+      "department": "Human Resources",
+      "designation": "Talent Acquisition & Culture Specialist",
+      "role": "employee",
+      "managerId": "EMP-HR-001",
+      "managerName": "Sarah Connor",
+      "salary": 76000,
+      "joiningDate": "2024-11-15",
+      "employmentType": "Full-Time",
+      "address": {
+        "street": "90 Bedford Street",
+        "city": "New York / San Francisco",
+        "state": "CA",
+        "zipCode": "94111",
+        "country": "USA"
+      },
+      "emergencyContact": {
+        "name": "Monica Geller",
+        "relationship": "Friend",
+        "phone": "+1 (555) 234-9876"
+      },
+      "leaveBalances": {
+        "sick": 12,
+        "casual": 10,
+        "annual": 18
+      },
+      "status": "Active",
+      "avatar": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150&auto=format&fit=crop&q=80",
+      "skills": [
+        "Technical Recruiting",
+        "Onboarding",
+        "HR Operations",
+        "Employee Engagement"
+      ],
+      "createdAt": "2024-11-15T00:00:00.000Z"
+    }
+  ],
+  "managers": [
+    {
+      "_id": "mgr-001",
+      "employeeId": "EMP-MGR-002",
+      "name": "Michael Scott",
+      "department": "Engineering",
+      "teamMembers": [
+        "EMP-DEV-003",
+        "EMP-DEV-004",
+        "EMP-DES-005"
+      ],
+      "budget": 185000,
+      "createdAt": "2024-05-10T00:00:00.000Z"
+    },
+    {
+      "_id": "mgr-002",
+      "employeeId": "EMP-HR-001",
+      "name": "Sarah Connor",
+      "department": "Human Resources",
+      "teamMembers": [
+        "EMP-HR-006",
+        "EMP-MGR-002"
+      ],
+      "budget": 250000,
+      "createdAt": "2024-03-15T00:00:00.000Z"
+    }
+  ],
+  "attendance": [
+    {
+      "_id": "att-today-001",
+      "employeeId": "EMP-HR-001",
+      "employeeName": "Sarah Connor",
+      "department": "Human Resources",
+      "date": "2026-10-27",
+      "checkIn": "08:45 AM",
+      "checkOut": null,
+      "totalHours": 7.5,
+      "status": "Present",
+      "workLocation": "Office",
+      "notes": "Onsite executive meetings"
+    },
+    {
+      "_id": "att-today-002",
+      "employeeId": "EMP-MGR-002",
+      "employeeName": "Michael Scott",
+      "department": "Engineering",
+      "date": "2026-10-27",
+      "checkIn": "09:00 AM",
+      "checkOut": null,
+      "totalHours": 7.2,
+      "status": "Present",
+      "workLocation": "Office",
+      "notes": "Leading sprint planning"
+    },
+    {
+      "_id": "att-today-003",
+      "employeeId": "EMP-DEV-003",
+      "employeeName": "Alex Morgan",
+      "department": "Engineering",
+      "date": "2026-10-27",
+      "checkIn": "09:12 AM",
+      "checkOut": null,
+      "totalHours": 6.8,
+      "status": "Present",
+      "workLocation": "Office",
+      "notes": "Feature sprint release"
+    },
+    {
+      "_id": "att-today-004",
+      "employeeId": "EMP-DEV-004",
+      "employeeName": "Elena Rostova",
+      "department": "Engineering",
+      "date": "2026-10-27",
+      "checkIn": "09:45 AM",
+      "checkOut": null,
+      "totalHours": 6.2,
+      "status": "Late",
+      "workLocation": "Remote",
+      "notes": "Commute delay, working remote today"
+    },
+    {
+      "_id": "att-today-005",
+      "employeeId": "EMP-DES-005",
+      "employeeName": "David Kim",
+      "department": "Design",
+      "date": "2026-10-27",
+      "checkIn": null,
+      "checkOut": null,
+      "totalHours": 0,
+      "status": "On-Leave",
+      "workLocation": "Remote",
+      "notes": "Approved medical leave"
+    },
+    {
+      "_id": "att-today-006",
+      "employeeId": "EMP-HR-006",
+      "employeeName": "Rachel Green",
+      "department": "Human Resources",
+      "date": "2026-10-27",
+      "checkIn": "08:55 AM",
+      "checkOut": null,
+      "totalHours": 7,
+      "status": "Present",
+      "workLocation": "Office",
+      "notes": "Campus interview screening"
+    },
+    {
+      "_id": "att-past-001",
+      "employeeId": "EMP-DEV-003",
+      "employeeName": "Alex Morgan",
+      "department": "Engineering",
+      "date": "2026-10-26",
+      "checkIn": "09:02 AM",
+      "checkOut": "05:45 PM",
+      "totalHours": 8.7,
+      "status": "Present",
+      "workLocation": "Office",
+      "notes": "Completed sprint ticket #104"
+    },
+    {
+      "_id": "att-past-002",
+      "employeeId": "EMP-DEV-003",
+      "employeeName": "Alex Morgan",
+      "department": "Engineering",
+      "date": "2026-10-25",
+      "checkIn": "09:05 AM",
+      "checkOut": "05:30 PM",
+      "totalHours": 8.4,
+      "status": "Present",
+      "workLocation": "Remote",
+      "notes": "Remote focused coding day"
+    },
+    {
+      "_id": "att-past-003",
+      "employeeId": "EMP-DEV-003",
+      "employeeName": "Alex Morgan",
+      "department": "Engineering",
+      "date": "2026-10-24",
+      "checkIn": "09:35 AM",
+      "checkOut": "06:00 PM",
+      "totalHours": 8.4,
+      "status": "Late",
+      "workLocation": "Office",
+      "notes": "Traffic incident on Bay Bridge"
+    }
+  ],
+  "leaves": [
+    {
+      "_id": "lev-001",
+      "employeeId": "EMP-DEV-003",
+      "employeeName": "Alex Morgan",
+      "department": "Engineering",
+      "leaveType": "Annual Leave",
+      "startDate": "2026-11-01",
+      "endDate": "2026-11-04",
+      "totalDays": 4,
+      "reason": "Family vacation and personal downtime after Q3 release.",
+      "status": "Pending",
+      "appliedAt": "2026-10-27T06:03:29.785Z",
+      "reviewedBy": null,
+      "reviewComments": "",
+      "reviewedAt": null
+    },
+    {
+      "_id": "lev-002",
+      "employeeId": "EMP-DES-005",
+      "employeeName": "David Kim",
+      "department": "Design",
+      "leaveType": "Sick Leave",
+      "startDate": "2026-10-27",
+      "endDate": "2026-10-27",
+      "totalDays": 1,
+      "reason": "Doctor appointment and recovery from seasonal flu.",
+      "status": "Approved",
+      "appliedAt": "2026-10-26T11:03:29.785Z",
+      "reviewedBy": "Michael Scott",
+      "reviewComments": "Get well soon, David! Approved.",
+      "reviewedAt": "2026-10-26T23:03:29.785Z"
+    },
+    {
+      "_id": "lev-003",
+      "employeeId": "EMP-DEV-004",
+      "employeeName": "Elena Rostova",
+      "department": "Engineering",
+      "leaveType": "Casual Leave",
+      "startDate": "2026-11-02",
+      "endDate": "2026-11-03",
+      "totalDays": 2,
+      "reason": "Attending regional developer symposium & speaking engagement.",
+      "status": "Approved",
+      "appliedAt": "2026-10-23T11:03:29.785Z",
+      "reviewedBy": "Michael Scott",
+      "reviewComments": "Great initiative representing our team.",
+      "reviewedAt": "2026-10-24T11:03:29.785Z"
+    },
+    {
+      "_id": "lev-004",
+      "employeeId": "EMP-HR-006",
+      "employeeName": "Rachel Green",
+      "department": "Human Resources",
+      "leaveType": "Casual Leave",
+      "startDate": "2026-10-15",
+      "endDate": "2026-10-16",
+      "totalDays": 2,
+      "reason": "Personal relocation errands.",
+      "status": "Approved",
+      "appliedAt": "2026-10-10T00:00:00.000Z",
+      "reviewedBy": "Sarah Connor",
+      "reviewComments": "Approved. Enjoy settling into your new place.",
+      "reviewedAt": "2026-10-11T00:00:00.000Z"
+    }
+  ],
+  "announcements": [
+    {
+      "_id": "ann-001",
+      "title": "Annual Performance Review Cycle 2026 Launch",
+      "content": "All team members and department managers are invited to participate in our annual 360-degree performance evaluation. Self-reviews should be submitted by the end of next week. Please connect with HR for any evaluation rubric clarifications.",
+      "priority": "Urgent",
+      "targetAudience": "All",
+      "postedBy": "Sarah Connor (HR Director)",
+      "postedByRole": "hr",
+      "category": "Policy",
+      "pinned": true,
+      "createdAt": "2026-10-26T11:03:29.785Z"
+    },
+    {
+      "_id": "ann-002",
+      "title": "New Hybrid Work & Flexible Attendance Guidelines",
+      "content": "Starting this month, core collaboration hours are set between 10:00 AM and 4:00 PM. Employees are encouraged to punch in/out using the StaffSync Attendance module accurately for transparent workforce records.",
+      "priority": "High",
+      "targetAudience": "All",
+      "postedBy": "Sarah Connor (HR Director)",
+      "postedByRole": "hr",
+      "category": "General",
+      "pinned": true,
+      "createdAt": "2026-10-24T11:03:29.785Z"
+    },
+    {
+      "_id": "ann-003",
+      "title": "StaffSync Innovation Hackathon 2026 - Registration Open!",
+      "content": "Engineering, Product, and Design teams will come together for our 48-hour internal hackathon. Prizes include innovation grants and tech gear. Cross-functional teams are highly encouraged to sign up by Friday!",
+      "priority": "Medium",
+      "targetAudience": "Engineering",
+      "postedBy": "Michael Scott (Engineering Lead)",
+      "postedByRole": "manager",
+      "category": "Event",
+      "pinned": false,
+      "createdAt": "2026-10-22T11:03:29.785Z"
+    },
+    {
+      "_id": "ann-004",
+      "title": "Upcoming National Holiday Schedule & Office Observance",
+      "content": "The office will observe upcoming statutory public holidays. Essential support shifts have been scheduled, and standard PTO balances will not be deducted for scheduled company holiday dates.",
+      "priority": "Low",
+      "targetAudience": "All",
+      "postedBy": "HR Operations",
+      "postedByRole": "hr",
+      "category": "Holiday",
+      "pinned": false,
+      "createdAt": "2026-10-19T11:03:29.785Z"
+    }
+  ],
+  "trainings": [
+    {
+      "_id": "trn-001",
+      "title": "Modern Full-Stack Architecture with React 19 & Node",
+      "description": "Comprehensive deep-dive covering React 19 Server Components, advanced state synchronization with Redux Toolkit, and scalable Node.js microservices.",
+      "trainer": "Michael Scott",
+      "department": "Engineering",
+      "startDate": "2026-11-05",
+      "endDate": "2026-11-09",
+      "durationHours": 16,
+      "capacity": 25,
+      "location": "Virtual Classroom (Zoom)",
+      "status": "In-Progress",
+      "enrolledEmployees": [
+        {
+          "employeeId": "EMP-DEV-003",
+          "employeeName": "Alex Morgan",
+          "enrolledAt": "2026-10-20T00:00:00.000Z",
+          "progress": 60,
+          "completed": false
+        },
+        {
+          "employeeId": "EMP-DEV-004",
+          "employeeName": "Elena Rostova",
+          "enrolledAt": "2026-10-21T00:00:00.000Z",
+          "progress": 80,
+          "completed": false
+        }
+      ],
+      "materials": [
+        {
+          "title": "Architecture Slides & Whitepaper",
+          "url": "https://staffsync.internal/docs/react-node.pdf"
+        },
+        {
+          "title": "Git Code Labs Repository",
+          "url": "https://github.com/staffsync/react-lab"
+        }
+      ],
+      "createdAt": "2026-10-15T00:00:00.000Z"
+    },
+    {
+      "_id": "trn-002",
+      "title": "High-Impact Leadership & Coaching for Team Leads",
+      "description": "Master essential skills for managing engineering teams, active listening, structured 1-on-1s, giving constructive feedback, and conflict resolution.",
+      "trainer": "Sarah Connor",
+      "department": "All",
+      "startDate": "2026-11-12",
+      "endDate": "2026-11-14",
+      "durationHours": 10,
+      "capacity": 20,
+      "location": "Executive Conference Room 4B",
+      "status": "Upcoming",
+      "enrolledEmployees": [
+        {
+          "employeeId": "EMP-MGR-002",
+          "employeeName": "Michael Scott",
+          "enrolledAt": "2026-10-22T00:00:00.000Z",
+          "progress": 0,
+          "completed": false
+        }
+      ],
+      "materials": [
+        {
+          "title": "Leadership Playbook 2026",
+          "url": "https://staffsync.internal/docs/leadership.pdf"
+        }
+      ],
+      "createdAt": "2026-10-18T00:00:00.000Z"
+    },
+    {
+      "_id": "trn-003",
+      "title": "Enterprise Cyber Security & Data Privacy Compliance",
+      "description": "Mandatory annual workshop on threat mitigation, SOC2 and GDPR compliance, secure coding practices, and phishing prevention.",
+      "trainer": "Security Operations Team",
+      "department": "All",
+      "startDate": "2026-11-20",
+      "endDate": "2026-11-21",
+      "durationHours": 6,
+      "capacity": 100,
+      "location": "Live Stream & Interactive Portal",
+      "status": "Upcoming",
+      "enrolledEmployees": [
+        {
+          "employeeId": "EMP-DEV-003",
+          "employeeName": "Alex Morgan",
+          "enrolledAt": "2026-10-24T00:00:00.000Z",
+          "progress": 0,
+          "completed": false
+        },
+        {
+          "employeeId": "EMP-DES-005",
+          "employeeName": "David Kim",
+          "enrolledAt": "2026-10-24T00:00:00.000Z",
+          "progress": 0,
+          "completed": false
+        }
+      ],
+      "materials": [
+        {
+          "title": "Security Standard Operating Guidelines",
+          "url": "https://staffsync.internal/docs/security.pdf"
+        }
+      ],
+      "createdAt": "2026-10-20T00:00:00.000Z"
+    }
+  ],
+  "notifications": [
+    {
+      "_id": "notif-001",
+      "recipientId": "EMP-DEV-003",
+      "title": "Leave Request Received",
+      "message": "Your leave request for Annual Leave has been submitted to Michael Scott for review.",
+      "type": "leave",
+      "isRead": false,
+      "link": "/leaves",
+      "createdAt": "2026-10-27T07:03:29.785Z"
+    },
+    {
+      "_id": "notif-002",
+      "recipientId": "EMP-DEV-003",
+      "title": "New Announcement Posted",
+      "message": "Sarah Connor posted \"Annual Performance Review Cycle 2026 Launch\".",
+      "type": "announcement",
+      "isRead": false,
+      "link": "/announcements",
+      "createdAt": "2026-10-26T11:03:29.785Z"
+    },
+    {
+      "_id": "notif-003",
+      "recipientId": "EMP-MGR-002",
+      "title": "New Leave Request from Alex Morgan",
+      "message": "Alex Morgan submitted an Annual Leave request for 4 days requiring your approval.",
+      "type": "leave",
+      "isRead": false,
+      "link": "/leaves",
+      "createdAt": "2026-10-27T06:03:29.785Z"
+    },
+    {
+      "_id": "notif-004",
+      "recipientId": "EMP-HR-001",
+      "title": "Daily Attendance Summary Ready",
+      "message": "86% company attendance recorded today. 1 employee on leave, 1 late arrival.",
+      "type": "attendance",
+      "isRead": false,
+      "link": "/attendance",
+      "createdAt": "2026-10-27T09:03:29.785Z"
+    }
+  ]
+}
